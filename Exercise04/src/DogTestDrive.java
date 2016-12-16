@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class Dog{
 
 //    Make some Doggies, set their size, and check if it is bigger than another dog
@@ -25,10 +27,10 @@ class DogPack{
 
 //    make an array of Doggies and also pick the biggest one
 
-    private java.util.ArrayList<Dog> dogs;
+    private ArrayList<Dog> dogs;
 
     public void makeArray(int size){
-        dogs = new java.util.ArrayList<Dog>();
+        dogs = new ArrayList<Dog>();
     }
 
     public void addDog(int index, Dog dog){

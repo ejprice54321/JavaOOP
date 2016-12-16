@@ -25,10 +25,10 @@ class DogPack{
 
 //    make an array of Doggies and also pick the biggest one
 
-    private java.util.ArrayList<Dog> dogs;
+    private Dog[] dogs;
 
     public void makeArray(int size){
-        dogs = new java.util.ArrayList<Dog>();
+        Dog[] dogs = new Dog[10];
     }
 
     public void addDog(int index, Dog dog){
